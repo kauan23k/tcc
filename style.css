@@ -13,7 +13,7 @@ body{
     
 }
 
-.serviços p{
+.serviços a{
     border: 2px solid #bf8a2f;;
     
     padding: 4px;
@@ -21,9 +21,10 @@ body{
     border-radius: 8px;
     transition: 0.2s;
     color: #3f2800;
+    text-decoration: none;
 }
 
-.serviços p:hover{
+.serviços a:hover{
 
     scale: 1.2;
 }
@@ -40,6 +41,9 @@ body{
     align-content: center;
     
 }
-.serviços a{
-    text-decoration: none;
+
+iframe{
+    width: 250px;
+    height: 250px;
+    border: 0;
 }
